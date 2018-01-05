@@ -1,5 +1,7 @@
 # WP REST API - Filter parameter for posts endpoints
 
+__NOTE:__ Modified version that allows the meta fields we use to track page views to be filtered in our Playbook CMS REST API endpoint for pages. 
+
 In WordPress 4.7 the `filter` argument for any post endpoint was removed, The `filter` argument allows the posts to be
 filtered using `WP_Query` public query vars. This plugin restores the `filter` parameter for sites that were
 previously using it.
